@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chats - Kokoa Clone</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar_column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar_column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar_column">
+            <span>110%</span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header_title">Chats</h1>
+        <div class="screen-header_icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="far fa-comment-dots fa-lg"></i></span>
+            <span><i class="fas fa-music fa-lg"></i></span>
+            <span><i class="fas fa-cog fa-lg"></i></span>
+        </div>
+    </header>
+
+    
+
+    <main class="main-screen">
+        <div class="user-component">
+            <div class="user-component_column">
+                <img src="screenshots/taerim.jpg" 
+                class="user-component_avatar user-component_avatar">
+                <div class="user-component_text">
+                    <h4 class="user-component_title">미필 태림이</h4>
+                    <h6 class="user-component_subtitle">내일 영화보실?</h6>
+                </div>
+            </div>
+            <div class="user-component_column">
+                <span class="user-component_time">20:42</span>
+                <div class="badge">1</div>
+            </div>
+        </div>
+        <div class="user-component">
+            <div class="user-component_column">
+                <img src="screenshots/dog.jpg" 
+                class="user-component_avatar user-component_avatar">
+                <div class="user-component_text">
+                    <h4 class="user-component_title">크림이</h4>
+                    <h6 class="user-component_subtitle">산책시켜줘</h6>
+                </div>
+            </div>
+            <div class="user-component_column">
+                <span class="user-component_time">20:18</span>
+                <div class="badge">1</div>
+            </div>
+        </div>
+    </main>
+
+
+    <nav class="nav">
+        <ul class="nav_list">
+            <li class="nav_btn">
+                <a class="nav_link" href="friends.html"><i class="far fa-user fa-2x"></i></a>
+            </li>
+
+            <li class="nav_btn">
+                <a class="nav_link" href="chats.html">
+                    <span class="nav_notification badge">1</span>
+                    <i class="fas fa-comment fa-2x"></i>
+                </a>
+            </li>
+
+            <li class="nav_btn"><a class="nav_link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
+            </li>
+
+            <li class="nav_btn"><a class="nav_link" href="more.html">
+                <span class="dot"></span>
+                <i class="fas fa-ellipsis-h fa-2x"></i></a>
+            </li>
+        </ul>
+    </nav>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
