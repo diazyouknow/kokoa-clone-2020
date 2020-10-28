@@ -59,3 +59,16 @@
   display: block;
   margin-bottom: 10px;
 }
+
+.user-component_subtitle span {
+  margin-left: 5px;
+  color: tomato;
+  border: 1px solid tomato;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 2px;
+  padding-top: 0px;
+}
